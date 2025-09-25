@@ -1,10 +1,20 @@
 # Schedule Bot — мульти‑тенант платформа расписаний для университетов
 
+<div align="center">
+
+![Главная страница Mini App](static/images/screenshots/1.png)
+![Поиск групп и преподавателей](static/images/screenshots/2.png)
+
+![Расписание на день](static/images/screenshots/3.png)
+![Экспорт в PDF](static/images/screenshots/4.png)
+
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Redis](https://img.shields.io/badge/Cache-Redis-D82C20?logo=redis&logoColor=white)](https://redis.io/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![CI](https://img.shields.io/badge/GitLab-CI/CD-FC6D26?logo=gitlab&logoColor=white)](./.gitlab-ci.yml)
+
+</div>
 
 Телеграм Mini App и API‑платформа, агрегирующая и публикующая расписания вузов под разными поддоменами. SEO‑страницы для шаринга, кэширование и лимиты, а также серверную генерацию PDF/изображений расписания.
 
@@ -181,12 +191,11 @@ docker compose up --build -d
 4. **Экспорт в PDF** — генерация и отправка расписания
 5. **SEO страницы** — [psuti.raspisanie.space](https://psuti.raspisanie.space)
 
-### Планируемые скриншоты
-- `static/images/README/overview.png` — главная Mini App
-- `static/images/README/search.png` — поиск групп/преподавателей  
-- `static/images/README/schedule.png` — расписание дня
-- `static/images/README/share.png` — SEO‑страница шаринга
-- `static/images/README/pdf.gif` — генерация и отправка PDF
+### Скриншоты функциональности
+- `static/images/screenshots/1.png` — главная страница Mini App
+- `static/images/screenshots/2.png` — поиск групп/преподавателей  
+- `static/images/screenshots/3.png` — расписание на день
+- `static/images/screenshots/4.png` — экспорт расписания в PDF
 
 ## Тесты и качество
 - Юнит‑тесты в `tests/`.
