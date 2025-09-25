@@ -6,7 +6,9 @@
 ![Поиск групп и преподавателей](static/images/screenshots/2.png)
 
 ![Расписание на день](static/images/screenshots/3.png)
-![Экспорт в PDF](static/images/screenshots/4.png)
+![Выбор даты](static/images/screenshots/4.png)
+
+![Основная страница сайта PSUTI](static/images/screenshots/5.png)
 
 [![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-High%20Performance-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -212,6 +214,7 @@ docker compose up --build -d
 - `static/images/screenshots/2.png` — поиск групп/преподавателей  
 - `static/images/screenshots/3.png` — расписание на день
 - `static/images/screenshots/4.png` — выбор даты
+- `static/images/screenshots/5.png` — основная страница сайта PSUTI
 
 ## Тесты и качество
 - Юнит‑тесты в `tests/`.
