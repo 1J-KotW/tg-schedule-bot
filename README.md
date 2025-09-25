@@ -211,7 +211,7 @@ docker compose up --build -d
 - `static/images/screenshots/1.png` — главная страница Mini App
 - `static/images/screenshots/2.png` — поиск групп/преподавателей  
 - `static/images/screenshots/3.png` — расписание на день
-- `static/images/screenshots/4.png` — экспорт расписания в PDF
+- `static/images/screenshots/4.png` — выбор даты
 
 ## Тесты и качество
 - Юнит‑тесты в `tests/`.
